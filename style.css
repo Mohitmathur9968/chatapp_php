@@ -46,13 +46,31 @@ body{
     margin-bottom:10px;
     border: 1px solid #f5c6cb;
 }
+.form form .name-details{
+    display: flex;
+}
+
+form .name-details .field:first-child{
+    margin-right: 10px;
+}
+
+form .name-details .field:last-child{
+    margin-left: 10px;
+}
+
 .form form .field{
 
     display: flex;
+    position: relative;
     flex-direction: column;
     margin-bottom: 10px;
-}.form form .field input{
-    outline: none;
+}
+.form form .field label{
+    margin-bottom: 2px;
+}
+
+.form form .field input{
+   // outline: #721c24;
 }
 
 .form form .input input{
@@ -63,4 +81,67 @@ body{
     padding: 0 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+.form form .image input{
+    font-size: 17px;
+}
+
+.form form .button input{
+
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form form .field i{
+    position: absolute;
+    right: 15px;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.form .link{
+    text-align: center;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.form .link a{
+    color: #333;
+}
+
+.form .link a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* user area CSS code */
+
+.users{
+    padding: 25px 30px;
+}
+
+.users header{
+     display: flex;
+     align-items: center;
+     padding-bottom: 20px;
+     justify-content: space-between;
+     border-bottom: 1px solid;
+
+}
+.wrapper img{
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+.users header .content img{
+      height: 50px;
+      width: 50px;
 }
