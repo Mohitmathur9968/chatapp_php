@@ -128,7 +128,7 @@ form .name-details .field:last-child{
     padding: 25px 30px;
 }
 
-.users header{
+.users header ,.users-list a{
      display: flex;
      align-items: center;
      padding-bottom: 20px;
@@ -144,4 +144,55 @@ form .name-details .field:last-child{
 .users header .content img{
       height: 50px;
       width: 50px;
+}
+
+.users header .details span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.users header.logout{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 15px;
+    background: #333;
+    border-radius: 5px;
+}
+.users .search{
+ 
+     margin: 20px 0;
+     display: flex;
+     position: relative;
+     align-items: center;
+     justify-content: space-between;
+}
+.users .search input{
+    font-size: 18px;
+}
+
+.users .search input{
+    position: absolute;
+    height: 42px;
+    width: calc(90%);
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    font-size: 16px;
+    border-radius: 5;
+}
+.users .search button{
+    width: 47px;
+    height: 42px;
+    border: none;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 0 5px 5px 0;
+}
+
+.users-list{
+
+}
+
+.users-list a{
+
 }
