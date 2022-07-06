@@ -13,30 +13,30 @@
     <div class="wrapper">
         <section class="form signup">
             <header>Realtime chat app </header>
-            <form action="#">
+            <form action="#" enctype="multipart/form-data">
                 <div class="error-txt">this is an error msg</div>
                 <div class="name-details">
                     <div class="field  input">
                         <label for="">First Name</label>
-                        <input type="text" placeholder="first Name">
+                        <input type="text" name="fname" placeholder="first Name" required>
                     </div>
                     <div class="field input">
                         <label for="">Last Name</label>
-                        <input type="text" placeholder="Last Name">
+                        <input type="text" name="lname" placeholder="Last Name" required>
                     </div>
                     </div>
                     <div class="field input">
                         <label for="">email</label>
-                        <input type="text" placeholder="email">
+                        <input type="text" name="email" placeholder="email" required>
                     </div>
                     <div class="field input">
                         <label for="">Password</label>
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="password" placeholder="Password" required>
                         <i class="fas fa-eye"></i>
                     </div>
                     <div class="field image">
                         <label for="">Select Image</label>
-                        <div><input type="file"></div>
+                        <div><input type="file" name="image"></div>
                         
                     </div>
                     <div class="field button">
