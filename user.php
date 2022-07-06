@@ -23,7 +23,7 @@
             <a href="#" class="logout">logout</a>
            </header>
            <div class="search">
-            <span class="search">chat user</span>
+            <span class="text">Select an user to start chat</span>
             <input type="text" placeholder="Enter name to search...">
             <button><i class="fas fa-search"></i></button>   
         </div>
@@ -123,5 +123,6 @@
         
         </section>
     </div>
+    <script src="JavaScript/user.js"></script>
 </body>
 </html>

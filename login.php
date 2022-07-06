@@ -31,7 +31,7 @@
                         <input type="Submit" value="Continue to chat">
                     </div> 
             </form>
-            <div class="link">New user?<a href="index.html">signup</a></div>
+            <div class="link">New user?<a href="index.php">signup</a></div>
         </section>
     </div>
     <script src="JavaScript/show-hideIcon.js"></script>
