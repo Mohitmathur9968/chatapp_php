@@ -12,7 +12,7 @@
 <body>
     <div class="wrapper">
         <section class="form signup">
-            <header>Realtime chat app </header>
+            <header>chat app </header>
             <form action="#" enctype="multipart/form-data">
                 <div class="error-txt">this is an error msg</div>
                 <div class="name-details">
